@@ -11,7 +11,7 @@
     position: static;
 }
 .Header-logo img {
-    width: 50px;
+        width: 50px;
     height: 50px;
 }
 ul {
@@ -61,6 +61,7 @@ button {
     font-size: 20px;
     width: 349px;
     margin-top: -35px;
+    font-family: system-ui, -apple-system;
 }
 .small-icon {
     width: 20px;
@@ -71,5 +72,46 @@ button {
 }
 .hero-link a {
     text-decoration: none;
+}
+/* video call area */
+.video-container {
+    background-color: #009dff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 162px;
+    padding-right: 50px;
+}
+.video-left h2 {
+    font-size: 65px;
+    width: 385px;
+    color: white;
+    margin-top: 15px;
+    font-family: system-ui;
+}
+.video-left p {
+    font-size: 20px;
+    width: 349px;
+    margin-top: -35px;
+    color: white;
+    font-family: system-ui, -apple-system;
+}
+.video-icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.video-icon h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.video-icon img {
+    width: 50px;
+    height: 50px;
+}
+.Video-img img {
+    width: 50rem;
+    height: 500px;
+    margin-top: 80px;
 }
 
